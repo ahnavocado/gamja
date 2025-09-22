@@ -3,8 +3,8 @@
   <name>pc2_preprocessor</name>
   <version>0.1.0</version>
   <description>PointCloud2 preprocessing: voxel downsample, ground removal, 2D OccupancyGrid projection.</description>
-
-  <maintainer email="ahn.avocado@gmail.com">Your Name</maintainer>
+  <maintainer email="ahn.avocado@gmail.com">avocado Ahn</maintainer>
+  <author>Sukyum Ahn</author>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -15,9 +15,10 @@
   <depend>std_msgs</depend>
   <depend>pcl_conversions</depend>
 
-  <!-- 시스템 패키지: PCL -->
+  
   <exec_depend>pcl_msgs</exec_depend>
 
   <export>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
